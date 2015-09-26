@@ -1,1 +1,1 @@
-# BootS
+# BootStrap Foundation
