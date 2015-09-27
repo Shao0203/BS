@@ -25,3 +25,8 @@
 7. Display / Hide  
 visible/hidden-xs/sm/md/lg;  
 `<p class="visible-xs alert alert-info">Download app!</p>`  
+
+**-Navbar-**  
+
+**-Dialog: Modal-**  
+
