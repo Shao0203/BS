@@ -1,15 +1,15 @@
-# BootStrap
+# Bootstrap
 
 **-Layout-**  
-1. 12 columns Grid System:   
-col-xs-*;  
-col-sm-*;  
-col-md-*;  
-col-lg-*;  
+1. 12 columns Grid System  
+`col-xs-*`  
+`col-sm-*`  
+`col-md-*`  
+`col-lg-*`  
 
 2. class="container", class="row", class="col-md-8", class="col-md-4"  
 
-3. mixed style in one class to suit different devices 
+3. mixed style in one class to suit different devices  
 `<div class="col-xs-6 col-sm-8 col-md-9 col-lg-10">...</div>`  
 `<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">...</div>`  
 
@@ -25,5 +25,3 @@ col-lg-*;
 7. Display / Hide  
 visible/hidden-xs/sm/md/lg;  
 `<p class="visible-xs alert alert-info">Download app!</p>`  
-
-**-Navigation-**  
