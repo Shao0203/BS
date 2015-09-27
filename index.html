@@ -2,15 +2,58 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bootstrap</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<title>Bootstrap</title>
 </head>
 <body>
-	
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="page-header">Mainbody</h1>
+				<!-- only display at small device start -->
+				<p class="visible-xs alert alert-info">Download IOS App here!</p>
+				<!-- only display at small device end -->	
+				<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+				<!-- mixed layout start -->
+				<div class="row">
+					<div class="col-md-4">
+						<h2>title 1</h2>
+						<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.
+						Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+					</div>
+					<div class="col-md-4">
+						<h2>title 2</h2>
+						<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+					</div>
+					<div class="col-md-4">
+						<h2>title 3</h2>
+						<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+					</div>
+					<!-- clear overflow start	 -->
+					<div class="clearfix"></div>
+					<!-- clear overflow end -->
+					<div class="col-md-6 col-md-offset-4">
+						<h2>title 4</h2>
+						<p class="alert alert-info">Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+					</div>
+					<div class="col-md-6">
+						<h2>title 5</h2>
+						<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+					</div>
+				</div>
+				<!-- mixed layout end -->
+			</div>
+			<!-- Siderbar hidden at samll device start -->
+			<div class="col-md-4 hidden-xs">
+				<h1 class="page-header">Siderbar</h1>				
+				<p>Lorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit nesciunt beatae est possimus quos repellat cum cumque voluptate earum expedita minus error qui totam nam officia rem aliquam delectus.</p>
+			</div>
+			<!-- Siderbar hidden at samll device end -->
+		</div>
+	</div>
 	<script src="lib/jquery-2.1.4.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
