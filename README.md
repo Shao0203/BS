@@ -30,3 +30,9 @@ visible/hidden-xs/sm/md/lg;
 
 **-Dialog: Modal-**  
 
+**-Carousel-**  
+1. Create carousel  
+2. Carousel indicators  
+3. Control icons  
+4. jQuery Control buttons - prev/next  
+5. jQuery Control buttons - play/pause  

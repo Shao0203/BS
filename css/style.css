@@ -1,5 +1,9 @@
 body {
-	padding-top: 70px;
+	padding-top: 50px;
+}
+
+img {
+    width: 100%;
 }
 
 .navbar-inverse input[type="text"] {
@@ -29,4 +33,3 @@ body {
 .navbar-inverse .glyphicon {
 	color: #999;
 }
-

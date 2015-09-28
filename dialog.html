@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Bootstrap - Navigation</title>
+	<title>Bootstrap - Dialog</title>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -36,12 +36,12 @@
 					</button>
 				</form>
 				<!-- search bar end -->
-				<a href="#" class="btn btn-primary btn-sm navbar-btn navbar-right hidden-xs">Purchase</a>
-				<div class="profile navbar-right">
+				<a href="#" class="btn btn-primary btn-sm navbar-btn navbar-right hidden-xs">Demo</a>
+				<div class="navbar-right">
 					<ul class="nav navbar-nav">
 						<!-- <li><a href="login-form.html" data-toggle="modal" data-target="#login-modal">Log in</a></li> -->
-						<li><a href="#" data-toggle="modal" data-target="#login-modal">Log in</a></li>
-						<li><a href="#">Sign up</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login-modal">LogIn</a></li>
+						<li><a href="#">SignUp</a></li>
 					</ul>
 					<!-- <p class="navbar-text"><a href="#" class="navbar-link">Your profile</a></p> -->
 				</div>
@@ -55,12 +55,12 @@
 	<!-- Dialog start -->
 	<!-- <div class="modal fade" id="login-modal" tabindex="-1" data-backdrop="false" data-remote="login-form.html"> -->
 	<div class="modal fade" id="login-modal" tabindex="-1">
-		<div class="modal-dialog modal-sm">
+		<div class="modal-dialog"> <!-- modal-sm -->
 			<div class="modal-content">
 				<!-- remote login-form.html start-->
 				<div class="modal-header">
 					<div class="close" data-dismiss="modal">&times;</div>
-					<h4>User Sign in</h4>
+					<h4>User LogIn </h4>
 				</div>
 				<div class="modal-body">
 					<form action="" role="form">
@@ -75,7 +75,9 @@
 					</form>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-primary">Sign in</button>
+					<button class="btn btn-primary">
+					Log in
+					</button>
 				</div>
 				<!-- remote login-form.html end-->
 			</div>
